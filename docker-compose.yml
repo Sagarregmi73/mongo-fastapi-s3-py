@@ -10,7 +10,7 @@ services:
       - ./uploads:/app/uploads
       - ./downloads:/app/downloads
     environment:
-      APP_ENV: local  # Will load ./env/.local.properties
+      APP_ENV: local
     depends_on:
       - mongo
 
@@ -24,6 +24,7 @@ services:
 
 volumes:
   mongo_data:
+
 
 #docker compose -f docker-compose.yml up --build
 #docker compose down

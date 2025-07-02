@@ -7,7 +7,7 @@ def parse_xlsx(file_path):
     wb = openpyxl.load_workbook(file_path)
     sheet = wb.active
     headers = [cell.value.lower() for cell in next(sheet.iter_rows(max_row=1))]
-    
+
     for col in REQUIRED_COLS:
         if col not in headers:
             raise ValueError(f"Missing required column: {col}")

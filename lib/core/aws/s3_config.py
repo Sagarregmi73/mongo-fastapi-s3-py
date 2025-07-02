@@ -1,5 +1,5 @@
-from core.config import config
 import boto3
+from lib.core.config import config
 
 s3_client = boto3.client(
     "s3",

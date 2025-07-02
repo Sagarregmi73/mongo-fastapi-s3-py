@@ -1,4 +1,4 @@
-from core.db.mongo_client import db
+from lib.core.db.mongo_client import db
 from typing import List
 from lib.app.domain.entities import PartData
 

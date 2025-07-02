@@ -4,7 +4,7 @@ from lib.app.domain.dtos import UploadRequestDTO, UploadResponseDTO
 from lib.app.application.helpers import parse_xlsx
 from lib.app.adapter.output.persistence.mongo_repository import MongoRepository
 from lib.app.adapter.output.persistence.s3_adapter import S3Adapter
-from core.config import config
+from lib.core.config import config
 
 class FileService:
     def __init__(self):

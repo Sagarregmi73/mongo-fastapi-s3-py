@@ -1,5 +1,5 @@
 import asyncio
-from core.aws.s3_config import s3_client, bucket_name
+from lib.core.aws.s3_config import s3_client, bucket_name
 
 class S3Adapter:
     async def upload_file(self, file_path: str, key: str):
