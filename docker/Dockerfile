@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy env and code
 COPY env/ ./env/
 COPY lib/ ./lib/
-COPY core/ ./core/
+COPY lib/core/ ./lib/core/
 COPY requirements.txt ./
 
 # Install dependencies
