@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+.env
+.env.*
+
+# Docker
+docker-compose.override.yml
+docker-compose.override.yml
+docker-compose.override.yaml
+**/Dockerfile.*
+**/docker-compose.override.yml
+
+# Local files/folders
+uploads/
+downloads/
+
